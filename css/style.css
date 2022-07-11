@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+* ¨{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.linktree img {
+    border-radius: 50%;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+:root {
+    --bgcolor : #333333;
+}
+
+body {
+    background-color:var(--bgcolor);
+}
+
+.linktree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    margin: 40px auto;
+    gap: 20px;
+}
+.linktree h1 {
+    color: white;
+    font-family: 'Karla', sans-serif;
+}
+
+.linktree a {;
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 50%;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Karla', sans-serif;
+    border: solid 2px white
+}
+
+.linktree a:hover {
+    background-color: var(--bgcolor);
+    color: white
+}
+
+@media (min-width: 1024px) {
+    .linktree {
+        width: 70vw;
+    }
+
+}

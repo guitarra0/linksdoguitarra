@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
-* ¨{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -44,7 +44,10 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     font-family: 'Karla', sans-serif;
-    border: solid 2px white
+    border: solid 2px white;
+    border-radius: 20px;
+
+
 }
 
 .linktree a:hover {
